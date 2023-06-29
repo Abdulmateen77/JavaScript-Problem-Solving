@@ -1,13 +1,12 @@
 function createMatrix(size) {
-  // You only need to implement this function.
-  arr = []
+  array = []
   for (let i = 0; i <size; i++){
-    arr.push([])
+    array.push([])
     for(let j = 0; j < size; j++){
-      arr[i].push(j)
+      array[i].push(j)
     }
   }
-  return arr
+  return array
 }
 
 if (JSON.stringify(createMatrix(2)) !== JSON.stringify([[0, 1], [0, 1]]))
