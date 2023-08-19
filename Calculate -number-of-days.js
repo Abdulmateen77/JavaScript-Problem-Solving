@@ -25,3 +25,13 @@ function getNumberOfDays(date) {
     // Return the number of days (rounded down to the nearest whole number)
     return Math.floor(days);
 }
+
+
+// Test cases
+const givenDate1 = "16/08/2023";
+const days1 = getNumberOfDays(givenDate1);
+console.log(`Days between ${givenDate1} and today: ${days1}`);
+
+const givenDate2 = "10/08/2023";
+const days2 = getNumberOfDays(givenDate2);
+console.log(`Days between ${givenDate2} and today: ${days2}`);
