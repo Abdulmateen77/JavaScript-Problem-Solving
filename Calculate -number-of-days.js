@@ -22,7 +22,7 @@ function getNumberOfDays(date) {
     // Convert the time difference to days and return the result
     const days = timeDifference / (1000 * 60 * 60 * 24);
 
-    // Return the number of days (rounded down to the nearest whole number)
+    // Return the number of days (rounded down to the nearest whole number).
     return Math.floor(days);
 }
 
