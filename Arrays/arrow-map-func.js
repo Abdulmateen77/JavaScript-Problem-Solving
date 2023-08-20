@@ -27,3 +27,10 @@ function isPrime(n) {
 
     return true; // 'n' is prime if not divisible by any number other than 1 and itself
 }
+
+
+// Test case
+const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const modifiedArray = modify(inputArray);
+console.log("Original Array:", inputArray);
+console.log("Modified Array:", modifiedArray);
