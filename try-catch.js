@@ -17,3 +17,20 @@ function getX(x) {
     }
     return x; // Return x if x is not 5
 }
+
+
+// Test cases for errorHandler function
+console.log(errorHandler(3)); // Output: 3 (no error)
+console.log(errorHandler(5)); // Output: null (error occurred)
+
+// Test cases for getX function
+console.log(getX(3)); // Output: 3
+console.log(getX(5)); // Output: Error: Error Occurred
+
+// Test case with try-catch block
+try {
+    console.log(errorHandler(3)); // Output: 3 (no error)
+    console.log(errorHandler(5)); // Output: null (error occurred)
+} catch (error) {
+    console.error("Caught an error:", error.message);
+}
