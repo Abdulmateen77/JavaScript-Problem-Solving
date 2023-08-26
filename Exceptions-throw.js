@@ -24,3 +24,12 @@ function checkAlphabet(X) {
         return false;
     }
 }
+
+
+// Test cases for isAlphabet function
+console.log(isAlphabet('A')); // Output: Yes (uppercase alphabet)
+console.log(isAlphabet('z')); // Output: Yes (lowercase alphabet)
+console.log(isAlphabet('5')); // Output: Not Alphabet (non-alphabet character)
+console.log(isAlphabet('@')); // Output: Not Alphabet (non-alphabet character)
+console.log(isAlphabet(''));  // Output: Not Alphabet (empty string)
+
