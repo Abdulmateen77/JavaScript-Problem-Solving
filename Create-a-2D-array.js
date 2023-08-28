@@ -25,3 +25,35 @@ if (JSON.stringify(createMatrix(2)) !== JSON.stringify([[0, 1], [0, 1]])) {
 
 // Export the createMatrix function to be used in other modules
 module.exports = createMatrix;
+
+
+const createMatrix = require('./createMatrix'); // Assuming 'createMatrix.js' is the file where the function is defined
+
+// Test case 1: Size = 1
+if (JSON.stringify(createMatrix(1)) !== JSON.stringify([[0]])) {
+  console.log("Test fails: Expected [ [ 0 ] ] for input size = 1");
+} else {
+  console.log("Test case for input size = 1 passed!");
+}
+
+// Test case 2: Size = 3
+if (
+  JSON.stringify(createMatrix(3)) !==
+  JSON.stringify([[0, 1, 2], [0, 1, 2], [0, 1, 2]])
+) {
+  console.log("Test fails: Expected [ [ 0, 1, 2 ], [ 0, 1, 2 ], [ 0, 1, 2 ] ] for input size = 3");
+} else {
+  console.log("Test case for input size = 3 passed!");
+}
+
+// Test case 3: Size = 4
+if (
+  JSON.stringify(createMatrix(4)) !==
+  JSON.stringify([[0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3], [0, 1, 2, 3]])
+) {
+  console.log("Test fails: Expected [ [ 0, 1, 2, 3 ], [ 0, 1, 2, 3 ], [ 0, 1, 2, 3 ], [ 0, 1, 2, 3 ] ] for input size = 4");
+} else {
+  console.log("Test case for input size = 4 passed!");
+}
+
+// Additional test cases can be added here...
