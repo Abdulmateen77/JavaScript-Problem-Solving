@@ -24,17 +24,7 @@ function createAddress (street, city, zipCode){
 let addres = createAddress("oxford street","london", "W1C 1DL");
 console.log(addres)
 
-// Object Contructor function
-function Address(street, city, zipCode){
-  this.street = street,
-  this.city = city,
-  this.zipCode = zipCode
-}
 
-let newAddress = new Address("Baker street", "London", "W1U 3AA")
-let newAddress2 = new Address("Baker street", "London", "W1U 3AA")
-
-console.log(newAddress, newAddress2)
 // function to check properties of two object
 function areEqual(address1, address2){
   return address1.street === address2.street &&
