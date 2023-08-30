@@ -173,23 +173,6 @@
   return thead;
 }
 
-function getStudentTableRow(id, name) {
-
-    let tRow = document.createElement("tr");
-  
-  
-    tRow.innerHTML = `
-  
-      <td>${id}</td>
-  
-      <td>${name}</td>
-  
-    `;
-  
-  
-    return tRow;
-  
-  }
   
 function loadtablerefactored(){
 
