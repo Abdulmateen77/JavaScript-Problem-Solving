@@ -1,0 +1,60 @@
+```markdown
+# Meetcode
+
+Meetcode is a web application for displaying and sorting a list of coding questions. It provides information about each question, including its title, acceptance rate, and difficulty level.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+
+## Features
+
+- Display a list of coding questions.
+- Sort questions by acceptance rate.
+- Provide information about each question, including title, acceptance rate, and difficulty.
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- A modern web browser that supports HTML5, CSS3, and JavaScript.
+- An internet connection to fetch question data from an external API.
+
+### Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/Abdulmateen77/JavaScript-Problem-Solving/new/main/Fetch-Api/fetching-a-list-of-Leetcode-questions.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```shell
+   cd meetcode
+   ```
+
+3. Open `index.html` in your web browser.
+
+## Usage
+
+- Upon opening the application, you will see a table displaying coding questions.
+- Click on the "Acceptance" header to sort questions by acceptance rate.
+- Explore the list of questions and their details.
+
+## Contributing
+
+Contributions are welcome! Here's how you can contribute to this project:
+
+1. Fork the project.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
