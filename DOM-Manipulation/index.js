@@ -1,12 +1,8 @@
-//console.log("Hello, from JS!");
+let heading = document.getElementsByTagName("h1");
 
-//let heading = document.getElementsByTagName("h1");
+let Firsth1Element = heading[0];
 
-
-//let Firsth1Element = heading[0];
-
-
-//Firsth1Element.innerText = "Practicing DOM Manipulation!";
+Firsth1Element.innerText = "Practicing DOM Manipulation!";
 
 
 //console.log(Firsth1Element.innerText)
