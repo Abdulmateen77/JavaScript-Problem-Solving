@@ -1,3 +1,4 @@
+// Creating a "Show Table" Button
 // Create a button element and set its inner HTML
 const button = document.createElement("button");
 button.innerHTML = `Show Table`;
