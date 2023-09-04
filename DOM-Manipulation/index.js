@@ -5,13 +5,13 @@ let Firsth1Element = heading[0];
 Firsth1Element.innerText = "Practicing DOM Manipulation!";
 
 
-//console.log(Firsth1Element.innerText)
+console.log(Firsth1Element.innerText)
 
-//const para = document.createElement("p");
+const para = document.createElement("p");
 
-//para.innerText = "innerText property refers to the text inside an element";
+para.innerText = "innerText property refers to the text inside an element";
 
-//document.body.appendChild(para);
+document.body.appendChild(para);
 
 
 //function addNewFact(factText){
