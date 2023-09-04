@@ -14,15 +14,15 @@ para.innerText = "innerText property refers to the text inside an element";
 document.body.appendChild(para);
 
 
-//function addNewFact(factText){
-    //const ParaElement = document.createElement("p");
+function addNewFact(factText){
+    const ParaElement = document.createElement("p");
 
-    //ParaElement.innerText = factText;
+    ParaElement.innerText = factText;
 
-    //const divElement = document.getElementById("facts-list");
+    const divElement = document.getElementById("facts-list");
 
-    //divElement.appendChild(ParaElement);
-//}
+    divElement.appendChild(ParaElement);
+}
 
 
 // Execute the function with the 1st fact
