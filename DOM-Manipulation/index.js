@@ -25,17 +25,17 @@ function addNewFact(factText){
 }
 
 
-// Execute the function with the 1st fact
+Execute the function with the 1st fact
 
-//addNewFact("innerText property refers to the text inside an element");
+addNewFact("innerText property refers to the text inside an element");
 
-// Execute the function with the 2nd fact
+Execute the function with the 2nd fact
 
-//addNewFact("append() or appendChild() methods can add a new child element");
+addNewFact("append() or appendChild() methods can add a new child element");
 
-//const divElement = document.getElementById("facts-list")
+const divElement = document.getElementById("facts-list")
 
-//divElement.innerHTML = "<p>Browser creates DOM from HTML content</p><p>Developers can access the DOM using the DOM APIs</p><p>innerHTML property refers to the HTML inside an element</p>"
+divElement.innerHTML = "<p>Browser creates DOM from HTML content</p><p>Developers can access the DOM using the DOM APIs</p><p>innerHTML property refers to the HTML inside an element</p>"
 
 
 //const tableID = document.getElementById("table-div")
