@@ -205,78 +205,54 @@ loadtablerefactored() */
 
 //console.log(students[0].name)
 
+// Function to create and return a table row with student ID and name
 function getStudentTableRow(id, name) {
-
-    let tRow = document.createElement("tr");
-  
-  
-    tRow.innerHTML = `
-  
-      <td>${id}</td>
-  
-      <td>${name}</td>
-  
-    `;
-  
-  
-    return tRow;
-  
-  }
-  
-function loadTableFromJson(){
-    // Create <table> element with styles
-    let table = document.createElement("table");
-  
-    table.setAttribute("border", "solid");
-  
-    table.setAttribute("width", "400px");
-  
-  
-
-    // Create header row and append it to the <table> element
-    let thead = document.createElement("thead");
-  
-    thead.innerHTML = `
-        <tr>
-  
-            <th>Id</th>
-  
-            <th>Name</th>
-  
-        </tr>
-        
-        `;
-  
-    table.append(thead);
-  
-  
-    // Create body element
-  
-    let tbody = document.createElement("tbody");
-    
-    // Set newly created <table> element inside the div container
-    
-    document.getElementById("table-div").append(table);
-
-    
-    for (let i = 0; i < students.length; i++) {
-
-        let currentStudent = students[i];
-    
-    
-        // Create a table row and append it to the body
-    
-        let tRow = getStudentTableRow(currentStudent.id, currentStudent.name);
-    
-    
-        // Append <tr> element to <tbody>
-    
-        tbody.appendChild(tRow);
-    
-    }
-
-    table.appendChild(tbody)
-  
+  let tRow = document.createElement("tr");
+  tRow.innerHTML = `
+    <td>${id}</td>
+    <td>${name}</td>
+  `;
+  return tRow;
 }
 
-loadTableFromJson()
+// Function to load a table from JSON data
+function loadTableFromJson() {
+  // Create <table> element with styles
+  let table = document.createElement("table");
+  table.setAttribute("border", "solid");
+  table.setAttribute("width", "400px");
+
+  // Create header row and append it to the <table> element
+  let thead = document.createElement("thead");
+  thead.innerHTML = `
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+    </tr>
+  `;
+  table.append(thead);
+
+  // Create body element
+  let tbody = document.createElement("tbody");
+
+  // Set the newly created <table> element inside the div container
+  document.getElementById("table-div").append(table);
+
+  // Loop through the 'students' array (assuming it's defined elsewhere)
+  for (let i = 0; i < students.length; i++) {
+    let currentStudent = students[i];
+
+    // Create a table row and append it to the body
+    let tRow = getStudentTableRow(currentStudent.id, currentStudent.name);
+
+    // Append <tr> element to <tbody>
+    tbody.appendChild(tRow);
+  }
+
+  // Append the <tbody> element to the <table>
+  table.appendChild(tbody);
+}
+
+// Call the loadTableFromJson function to populate the table
+loadTableFromJson();
+
