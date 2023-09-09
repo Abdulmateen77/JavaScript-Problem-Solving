@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="toDo" id="toDo"></div>
+
+    <form id="todo-form">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="todo-input"
+          placeholder="Add a new todo"
+          required
+        />
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="submit">+</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="but">
+      <button id="clear-all" class="btn btn-danger">
+        clear all
+      </button>
+    </div>
+    <ul id="todo-list" class="todo-list">
+      <!-- Todo items will be added here -->
+    </ul>
+    <script src="index.js"></script>
+  </body>
+</html>
