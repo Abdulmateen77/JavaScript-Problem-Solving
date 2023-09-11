@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Set the character encoding for the document -->
     <meta charset="UTF-8" />
+
+    <!-- Configure the viewport for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set the compatibility mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Set the title of the HTML page -->
     <title>Static Template</title>
+
+    <!-- Link to an external stylesheet for styling -->
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+    <!-- Create a container div with the class "toDo" and id "toDo" -->
     <div class="toDo" id="toDo"></div>
 
+    <!-- Create a form for adding todos with an input field and a submit button -->
     <form id="todo-form">
+      <!-- Create an input field with a placeholder and set it as required -->
       <div class="input-group mb-3">
         <input
           type="text"
@@ -19,20 +31,26 @@
           placeholder="Add a new todo"
           required
         />
+        <!-- Create a button for submitting the form -->
         <div class="input-group-append">
           <button class="btn btn-outline-secondary" type="submit">+</button>
         </div>
       </div>
     </form>
 
+    <!-- Create a button for clearing all todos -->
     <div class="but">
       <button id="clear-all" class="btn btn-danger">
         clear all
       </button>
     </div>
+
+    <!-- Create an unordered list for displaying todo items -->
     <ul id="todo-list" class="todo-list">
-      <!-- Todo items will be added here -->
+      <!-- Todo items will be added here dynamically -->
     </ul>
+
+    <!-- Include an external JavaScript file for adding functionality -->
     <script src="index.js"></script>
   </body>
 </html>
