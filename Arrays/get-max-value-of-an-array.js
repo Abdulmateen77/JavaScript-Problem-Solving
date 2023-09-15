@@ -1,15 +1,26 @@
-// Function to get max value of an array
-function getMax(array){
+// Function to find the maximum element in an array
+function getMax(array) {
+  // Check if the input array is empty
   if (array.length === 0) return undefined;
-  //let max = array[0];
-  //for(let element = 1; element < array.length; element++)
-    //if (array[element] > max)
-      //max = array[element];
-  
-  //return max;
 
-  //With reduce method
-  return array.reduce ((a,b) => (a>b) ? a :b);
+  // Uncommented code below is an alternative way to find the maximum element using a loop
+  // Initialize the maximum value with the first element of the array
+  // let max = array[0];
+  
+  // Iterate through the array to find the maximum element
+  // for (let element = 1; element < array.length; element++) {
+  //   if (array[element] > max) {
+  //     max = array[element];
+  //   }
+  // }
+
+  // Return the maximum value found using the loop
+  // return max;
+
+  // With the reduce method, find the maximum element in the array
+  return array.reduce((a, b) => (a > b) ? a : b);
 }
 
-console.log(getMax([1,2,77,4,5]))
+// Call the getMax function with an example array and print the result
+console.log(getMax([1, 2, 77, 4, 5]));
+
