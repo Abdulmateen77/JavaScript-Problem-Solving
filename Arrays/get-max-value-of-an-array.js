@@ -24,3 +24,19 @@ function getMax(array) {
 // Call the getMax function with an example array and print the result
 console.log(getMax([1, 2, 77, 4, 5]));
 
+// Test case 1: Regular array with positive integers
+console.log(getMax([1, 2, 77, 4, 5])); // Expected output: 77
+
+// Test case 2: Array with a single element
+console.log(getMax([42])); // Expected output: 42
+
+// Test case 3: Array with negative integers
+console.log(getMax([-5, -2, -8, -1, -4])); // Expected output: -1
+
+// Test case 4: Array with mixed positive and negative integers
+console.log(getMax([-5, 10, -8, 15, -4])); // Expected output: 15
+
+// Test case 5: Empty array
+console.log(getMax([])); // Expected output: undefined
+
+
