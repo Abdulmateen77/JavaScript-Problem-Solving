@@ -40,3 +40,8 @@ console.log(countOccurrence([1, 3, 5, 7], 2)); // Expected output: 0
 // Test case 3: Count occurrences of an element in an empty array
 console.log(countOccurrence([], 2)); // Expected output: 0
 
+// Test case 4: Count occurrences of an element in an array of identical elements
+console.log(countOccurrence([2, 2, 2, 2], 2)); // Expected output: 4
+
+// Test case 5: Count occurrences of an element when the array has only one element
+console.log(countOccurrence([42], 42)); // Expected output: 1
