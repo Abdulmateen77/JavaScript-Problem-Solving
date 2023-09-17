@@ -37,5 +37,6 @@ console.log(countOccurrence([1, 2, 3, 2, 4, 2], 2)); // Expected output: 3
 // Test case 2: Count occurrences of an element that does not exist in the array
 console.log(countOccurrence([1, 3, 5, 7], 2)); // Expected output: 0
 
-y has only one element
-console.log(countOccurrence([42], 42)); // Expected output: 1
+// Test case 3: Count occurrences of an element in an empty array
+console.log(countOccurrence([], 2)); // Expected output: 0
+
