@@ -29,3 +29,9 @@ function countOccurrence(array, searchElement) {
 
 // Call the countOccurrence function with the example array and search element and print the result
 console.log(countOccurrence(numbers, 2)); // Expected output: 2
+
+
+// Test case 1: Count occurrences of an element that exists in the array
+console.log(countOccurrence([1, 2, 3, 2, 4, 2], 2)); // Expected output: 3
+
+
