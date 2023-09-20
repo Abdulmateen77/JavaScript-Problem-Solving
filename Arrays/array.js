@@ -7,16 +7,6 @@ function arrayFromRange(min,max){
 }
 console.log(arrayFromRange(1,5));
 
-//Find element in an array
-function includes( array, searchElement){
-  for (let element of array) 
-    if (element === searchElement)
-      return true;
-  return false
-}
-
-const numbers = [1,2,3];
-console.log(includes( numbers , 1));
 
 
 
