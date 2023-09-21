@@ -50,6 +50,33 @@ function sum(limit){
 }
 
 console.log(sum(10))
+// Function to show prime numbers up to a given number 'num'
+function showPrime(num) {
+  // Iterate through numbers from 2 to 'num'
+  for (let number = 2; number <= num; number++) {
+    // Check if the current number is prime using the 'isPrime' function
+    if (isPrime(number)) {
+      // If it's prime, print the prime number to the console
+      console.log(number);
+    }
+  }
+}
+
+// Function to check if a number is prime
+function isPrime(number) {
+  // Iterate through potential factors from 2 to 'number - 1'
+  for (let factor = 2; factor < number; factor++) {
+    // If 'number' is divisible by 'factor' with no remainder, it's not prime
+    if (number % factor === 0) {
+      return false;
+    }
+  }
+  // If no factors were found, 'number' is prime
+  return true;
+}
+
+// Example usage: Show prime numbers up to 11 and print them
+console.log(showPrime(11));
 
 
 
