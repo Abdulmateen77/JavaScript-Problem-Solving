@@ -52,20 +52,7 @@ function sum(limit){
 console.log(sum(10))
 
 
-//show prime numbers function
-function showPrime(num){
-  for (let number = 2; number <= num; number++)
-        if (isPrime(number)) console.log(number);
-}
 
-function isPrime(number){
-      for (let factor = 2; factor < number; factor++)
-        if (number % factor === 0) 
-          return false
-       return true;
-}
-
-console.log(showPrime(11));
 
 // Object with read only property
 let circle = {
