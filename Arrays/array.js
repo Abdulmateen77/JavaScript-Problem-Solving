@@ -11,15 +11,7 @@ console.log(arrayFromRange(1,5));
 
 
 
-// Sum of an array function
-function sumOfArugments(...items){
-  if(items.length == 1 && Array.isArray(items[0]))
-    items = [...items[0]]
-  return items.reduce((a,b) => a+b);
-  
-}
 
-console.log(sumOfArugments([1,2,3,4]))
 
 // function try and catch error handing
 function countOccurence(array, searchElement){
