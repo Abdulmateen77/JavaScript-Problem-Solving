@@ -16,7 +16,7 @@ console.log(sumOfArguments([1, 2, 3, 4])); // Expected output: 10 (sum of elemen
 console.log(sumOfArguments(1, 2, 3, 4)); // Expected output: 10 (sum of individual arguments)
 console.log(sumOfArguments([1, 2, 3, 4])); // Expected output: 10 (sum of elements in the array argument)
 
-// Test case with multiple arguments, including arrays
+// Test case with multiple arguments 
 console.log(sumOfArguments(1, [2, 3], 4)); // Expected output: 10 (sum of elements in individual arguments and array)
 
 console.log(sumOfArguments([1])); // Expected output: 1 (only one element in the array)
