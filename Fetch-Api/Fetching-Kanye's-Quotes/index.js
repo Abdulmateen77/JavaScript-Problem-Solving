@@ -1,4 +1,4 @@
-// Function to add a Kanye West quote to the HTML
+// Function to add a Kanye West quote to the HTML file
 function quoteKenye(quote) {
   // Get the element with the id "quote" from the HTML
   let quoteofKenye = document.getElementById("quote");
