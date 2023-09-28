@@ -1,4 +1,4 @@
-// Function to determine if the given input is an alphabet character
+//Function to determine if the given input is an alphabet character
 function isAlphabet(X) {
     if (checkAlphabet(X)) {
         return "Yes"; // Return "Yes" if X is an alphabet character
@@ -7,7 +7,7 @@ function isAlphabet(X) {
     }
 }
 
-// Function to check if a given character is an alphabet
+//Function to check if a given character is an alphabet
 function checkAlphabet(X) {
     // Get the ASCII code of the character
     let n = X.charCodeAt(0);
@@ -26,14 +26,14 @@ function checkAlphabet(X) {
 }
 
 
-// Test cases for isAlphabet function
+//Test cases for isAlphabet function
 console.log(isAlphabet('A')); // Output: Yes (uppercase alphabet)
 console.log(isAlphabet('z')); // Output: Yes (lowercase alphabet)
 console.log(isAlphabet('5')); // Output: Not Alphabet (non-alphabet character)
 console.log(isAlphabet('@')); // Output: Not Alphabet (non-alphabet character)
 console.log(isAlphabet(''));  // Output: Not Alphabet (empty string)
 
-// Test cases for checkAlphabet function
+//Test cases for checkAlphabet function
 console.log(checkAlphabet('A')); // Output: true (uppercase alphabet)
 console.log(checkAlphabet('z')); // Output: true (lowercase alphabet)
 console.log(checkAlphabet('5')); // Output: false (non-alphabet character)
