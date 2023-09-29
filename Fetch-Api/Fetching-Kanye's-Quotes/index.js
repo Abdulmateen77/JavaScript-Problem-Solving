@@ -1,15 +1,15 @@
-// Function to add a Kanye West quote to the HTML file
+//Function to add a Kanye West quote to the HTML file
 function quoteKenye(quote) {
-  // Get the element with the id "quote" from the HTML
+  //Get the element with the id "quote" from the HTML
   let quoteofKenye = document.getElementById("quote");
 
-  // Create a new <h5> element to hold the quote
+  //Create a new <h5> element to hold the quote
   const newQuote = document.createElement("h5");
 
-  // Set the inner HTML of the new <h4> element to the received quote
+  //Set the inner HTML of the new <h4> element to the received quote
   newQuote.innerHTML = quote;
 
-  // Append the new <h4> element with the quote to the "quote" element in the HTML
+  //Append the new <h4> element with the quote to the "quote" element in the HTML
   quoteofKenye.appendChild(newQuote);
 }
 
