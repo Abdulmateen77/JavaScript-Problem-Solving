@@ -5,7 +5,7 @@ function areEqual(address1, address2){
     address1.zipCode === address2.zipCode
     
 }
-// function to check if the objects are same
+//function to check if the objects are same
 function areSame (address1, address2){
    return address1 === address2;
 }
