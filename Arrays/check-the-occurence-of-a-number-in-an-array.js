@@ -31,10 +31,10 @@ function countOccurrence(array, searchElement) {
 console.log(countOccurrence(numbers, 2)); // Expected output: 2
 
 
-// Test case 1: Count occurrences of an element that exists in the array
+//Test case 1: Count occurrences of an element that exists in the array
 console.log(countOccurrence([1, 2, 3, 2, 4, 2], 2)); // Expected output: 3
 
-// Test case 2: Count occurrences of an element that does not exist in the array
+//Test case 2: Count occurrences of an element that does not exist in the array
 console.log(countOccurrence([1, 3, 5, 7], 2)); // Expected output: 0
 
 // Test case 3: Count occurrences of an element in an empty array
