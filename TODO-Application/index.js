@@ -1,7 +1,7 @@
-// Get the reference to the HTML element with the id "toDo"
+//Get the reference to the HTML element with the id "toDo"
 const todo = document.getElementById("toDo");
 
-// Get the current date in a specific format
+//Get the current date in a specific format
 const date = new Date().toLocaleDateString("en-us", {
   weekday: "long",
   year: "numeric",
@@ -9,27 +9,27 @@ const date = new Date().toLocaleDateString("en-us", {
   day: "numeric"
 });
 
-// Set the innerHTML of the "toDo" element to include a centered heading with "Todo"
+//Set the innerHTML of the "toDo" element to include a centered heading with "Todo"
 todo.innerHTML = `
 <h1 style="text-align: center;">Todo</h1>
 `;
 
-// Create a new HTML element for displaying the current date
+//Create a new HTML element for displaying the current date
 const time = document.createElement("date");
 
-// Set the innerHTML of the "date" element to display the formatted date
+//Set the innerHTML of the "date" element to display the formatted date
 time.innerHTML = `<h2 style="text-align: center;" >${date}</h2>`;
 
-// Append the "date" element to the "toDo" element
+//Append the "date" element to the "toDo" element
 todo.appendChild(time);
 
-// Get references to the form, input, and list
+//Get references to the form, input, and list
 const todoForm = document.getElementById("todo-form"); // Form element
 const todoInput = document.getElementById("todo-input"); // Input element
 const todoList = document.getElementById("todo-list"); // List element
 const clearAllButton = document.getElementById("clear-all"); // Clear All button
 
-// Function to create a new todo item
+//Function to create a new todo item
 function createTodoItem(text) {
   const li = document.createElement("li"); // Create a list item
   li.className = "todo-item"; // Add a CSS class to the list item
@@ -47,7 +47,7 @@ function createTodoItem(text) {
   });
 }
 
-// Function to add a new todo when the form is submitted
+//Function to add a new todo when the form is submitted
 function addTodo(event) {
   event.preventDefault(); // Prevent the default form submission behavior
   const todoText = todoInput.value.trim(); // Get the trimmed value from the input
@@ -58,7 +58,7 @@ function addTodo(event) {
   }
 }
 
-// Event listeners
+//Event listeners
 todoForm.addEventListener("submit", addTodo); // Listen for form submission
 clearAllButton.addEventListener("click", function () {
   todoList.innerHTML = ""; // Clear all todo items when the "Clear All" button is clicked
