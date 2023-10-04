@@ -38,38 +38,38 @@ const divElement = document.getElementById("facts-list")
 divElement.innerHTML = "<p>Browser creates DOM from HTML content</p><p>Developers can access the DOM using the DOM APIs</p><p>innerHTML property refers to the HTML inside an element</p>"
 
 
-//const tableID = document.getElementById("table-div")
+const tableID = document.getElementById("table-div")
 
-//tableID.innerHTML = `
+tableID.innerHTML = `
 
-//<table border="1" width="400px"> 
+<table border="1" width="400px"> 
 
-  //  <thead> 
+    <thead> 
 
-    //    <tr>
+        <tr>
 
-      //      <td>Id</td>
+            <td>Id</td>
 
-        //    <td>Name</td>
+            <td>Name</td>
 
-        //</tr>
+        </tr>
 
-    //</thead>
+    </thead>
 
-    //<tbody>
+    <tbody>
 
-      //  <tr>
+        <tr>
 
-        //    <td>1</td>
+            <td>1</td>
 
-       // <td>Ramesh</td>
+        <td>Ramesh</td>
 
-       // </tr>
+        </tr>
 
-    //</tbody>
+    </tbody>
 
-//</table>
-//`;
+</table>
+`;
 
 
 
