@@ -9,17 +9,17 @@ function Stopwatch() {
       throw new Error('Stopwatch has already started.');
     running = true;
 
-    // Store the current time when the stopwatch starts
+    //Store the current time when the stopwatch starts
     startTime = new Date();
   }
 
-  // Method to stop the stopwatch
+  //Method to stop the stopwatch
   this.stop = function() {
     if (!running)
       throw new Error('Start the stopwatch');
     running = false;
 
-    // Store the current time when the stopwatch stops
+    //Store the current time when the stopwatch stops
     endTime = new Date();
 
     // Calculate the time difference in seconds and update the duration
