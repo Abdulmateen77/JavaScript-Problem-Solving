@@ -9,18 +9,18 @@ function isAlphabet(X) {
 
 //Function to check if a given character is an alphabet
 function checkAlphabet(X) {
-    // Get the ASCII code of the character
+    //Get the ASCII code of the character
     let n = X.charCodeAt(0);
 
-    // Determine if the character's ASCII code falls within the range of uppercase or lowercase letters
+    //Determine if the character's ASCII code falls within the range of uppercase or lowercase letters
     let strStartsWithALetter = (n >= 65 && n < 91) || (n >= 97 && n < 123);
 
-    // Check if the character starts with an alphabet
+    //Check if the character starts with an alphabet
     if (strStartsWithALetter) {
         // Yes, it starts with an alphabet
         return true;
     } else {
-        // No, it doesn't start with an alphabet
+        //No, it doesn't start with an alphabet
         return false;
     }
 }
