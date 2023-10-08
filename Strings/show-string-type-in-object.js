@@ -21,7 +21,7 @@ const movie = {
 console.log(showProperties(movie));
 
 
-// Define an object with various data types
+//Define an object with various data types
 const person = {
   name: 'John',
   age: 30,
@@ -30,11 +30,11 @@ const person = {
   email: 'john@example.com'
 };
 
-// Test case 1: Display properties with string values in the 'person' object
+//Test case 1: Display properties with string values in the 'person' object
 console.log("Test Case 1:");
 showProperties(person);
 
-// Define an object with all number values
+//Define an object with all number values
 const numbers = {
   one: 1,
   two: 2,
