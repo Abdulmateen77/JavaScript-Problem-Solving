@@ -64,7 +64,6 @@ function isPrime(number) {
 // Example usage: Show prime numbers up to 11 and print them
 console.log(showPrime(11));
 
-
 // Object with read only property
 let circle = {
   radius: 2,
