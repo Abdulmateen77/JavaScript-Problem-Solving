@@ -1,4 +1,4 @@
-// Function to check if two address objects have equal properties (street, city, and zipCode)
+//Function to check if two address objects have equal properties (street, city, and zipCode)
 function areEqual(address1, address2) {
   // Compare the properties of address1 and address2
   // Return true if all properties are equal, otherwise return false
@@ -7,7 +7,7 @@ function areEqual(address1, address2) {
          address1.zipCode === address2.zipCode;
 }
 
-// Function to check if two address objects are the same (refer to the same memory location)
+//Function to check if two address objects are the same (refer to the same memory location)
 function areSame(address1, address2) {
   // Compare the memory references of address1 and address2
   // Return true if they reference the same object in memory, otherwise return false
