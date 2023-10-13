@@ -1,4 +1,4 @@
-// Function to handle errors
+//Function to handle errors
 function errorHandler(x) {
     try {
         // Try to get the value using the getX function
