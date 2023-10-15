@@ -1,7 +1,7 @@
 //Function to check if two address objects have equal properties (street, city, and zipCode)
 function areEqual(address1, address2) {
-  // Compare the properties of address1 and address2
-  // Return true if all properties are equal, otherwise return false
+  //Compare the properties of address1 and address2
+  //Return true if all properties are equal, otherwise return false
   return address1.street === address2.street &&
          address1.city === address2.city &&
          address1.zipCode === address2.zipCode;
@@ -9,12 +9,12 @@ function areEqual(address1, address2) {
 
 //Function to check if two address objects are the same (refer to the same memory location)
 function areSame(address1, address2) {
-  // Compare the memory references of address1 and address2
-  // Return true if they reference the same object in memory, otherwise return false
+  //Compare the memory references of address1 and address2
+  //Return true if they reference the same object in memory, otherwise return false
   return address1 === address2;
 }
 
-// Test case 1: Objects with equal properties
+//Test case 1: Objects with equal properties
 var address1 = {
   street: '123 Main St',
   city: 'Cityville',
