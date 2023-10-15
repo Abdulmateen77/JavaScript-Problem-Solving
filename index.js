@@ -22,7 +22,7 @@ function countTruthy(array){
 console.log(countTruthy([1,2,3]))
 
 
-// sum of multiples function
+//sum of multiples function
 
 function sum(limit){
   let sum = 0;
@@ -36,7 +36,7 @@ function sum(limit){
 }
 
 console.log(sum(10))
-// Function to show prime numbers up to a given number 'num'
+//Function to show prime numbers up to a given number 'num'
 function showPrime(num) {
   // Iterate through numbers from 2 to 'num'
   for (let number = 2; number <= num; number++) {
