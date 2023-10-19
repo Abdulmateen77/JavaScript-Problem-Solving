@@ -1,9 +1,9 @@
-// Function to calculate grades based on average marks
+//Function to calculate grades based on average marks
 function calculateGrade(marks) {
-  // Calculate the average marks using the calculateAverage function
+  //Calculate the average marks using the calculateAverage function
   const avg = calculateAverage(marks);
 
-  // Determine the grade based on the average
+  //Determine the grade based on the average
   if (avg <= 59) return "F";
   else if (avg <= 69) return "D";
   else if (avg <= 79) return "C";
