@@ -35,7 +35,7 @@ function Stopwatch() {
     duration = 0;
   }
 
-  // Getter for accessing the duration of the stopwatch
+  //Getter for accessing the duration of the stopwatch
   Object.defineProperty(this, 'duration', {
     get: function() {
       return duration;
@@ -43,10 +43,10 @@ function Stopwatch() {
   });
 }
 
-// Create a new Stopwatch instance
+//Create a new Stopwatch instance
 const sw = new Stopwatch();
 
-// Start the stopwatch
+//Start the stopwatch
 sw.start();
 
 // Stop the stopwatch
