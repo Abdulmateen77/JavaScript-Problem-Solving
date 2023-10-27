@@ -48,7 +48,7 @@ function showPrime(num) {
   }
 }
 
-//Function to check if a number is prime
+// Function to check if a number is prime
 function isPrime(number) {
   //Iterate through potential factors from 2 to 'number - 1'
   for (let factor = 2; factor < number; factor++) {
