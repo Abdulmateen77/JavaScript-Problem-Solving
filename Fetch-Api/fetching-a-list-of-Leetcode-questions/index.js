@@ -1,14 +1,14 @@
 //Function to fetch data from an API endpoint
 async function getApiData() {
-    // Send a GET request to the API endpoint
+    //Send a GET request to the API endpoint
     let res = await fetch(
         "https://run.mocky.io/v3/511fa794-6bfb-4c9f-9adb-9e18d62d7003"
     );
 
-    // Parse the response as JSON
+    //Parse the response as JSON
     let data = await res.json();
 
-    // Return the JSON data
+    //Return the JSON data
     return data;
 }
 
