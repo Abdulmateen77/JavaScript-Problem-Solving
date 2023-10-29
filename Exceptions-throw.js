@@ -17,7 +17,7 @@ function checkAlphabet(X) {
 
     //Check if the character starts with an alphabet
     if (strStartsWithALetter) {
-        // Yes, it starts with an alphabet
+        //Yes, it starts with an alphabet
         return true;
     } else {
         //No, it doesn't start with an alphabet
