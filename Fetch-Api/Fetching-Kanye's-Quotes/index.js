@@ -3,7 +3,7 @@ function quoteKenye(quote) {
   //Get the element with the id "quote" from the HTML
   let quoteofKenye = document.getElementById("quote");
 
-  //Create a new <h5> element to hold the quote
+  //Create a new <h5>  element to hold the quote
   const newQuote = document.createElement("h5");
 
   //Set the inner HTML of the new <h4> element to the received quote
