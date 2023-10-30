@@ -49,8 +49,8 @@ const sw = new Stopwatch();
 //Start the stopwatch
 sw.start();
 
-// Stop the stopwatch
+//Stop the stopwatch
 sw.stop();
 
-// Display the duration of the stopwatch
+//Display the duration of the stopwatch
 console.log(sw.duration);
