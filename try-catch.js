@@ -5,7 +5,8 @@ function errorHandler(x) {
         let num = getX(x);
         return num; // Return the value if successful
     } catch (error) {
-        console.error("An error occurred:", error.message); // Log the error message
+        // Log the error message
+        console.error("An error occurred:", error.message); 
         return null; // Return null to indicate error
     }
 }
