@@ -1,4 +1,4 @@
-const students = [
+const students= [
   {
     id: "1",
     name: "John",
@@ -9,7 +9,7 @@ const students = [
   },
   {
     id: "3",
-    name: "Sukruti",
+    name: "Sukrut",
   },
   {
     id: "4",
