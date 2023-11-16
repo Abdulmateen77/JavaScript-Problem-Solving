@@ -1,19 +1,19 @@
-//Constructor function for creating a Stopwatch object
+// Constructor function for creating a Stopwatch object
 function Stopwatch() {
   //Private variables to track the state and duration of the stopwatch
   let startTime, endTime, running, duration = 0;
 
-  //Method to start the stopwatch
+  // Method to start the stopwatch
   this.start = function() {
     if (running)
       throw new Error('Stopwatch has already started.');
     running = true;
 
-    //Store the current time when the stopwatch starts
+    // Store the current time when the stopwatch starts
     startTime = new Date();
   }
 
-  //Method to stop the stopwatch
+  // Method to stop the stopwatch
   this.stop = function() {
     if (!running)
       throw new Error('Start the stopwatch');
