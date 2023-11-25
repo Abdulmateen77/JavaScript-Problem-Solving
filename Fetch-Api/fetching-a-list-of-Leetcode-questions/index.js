@@ -53,7 +53,7 @@ populateTable(questionList);
 
 //Function to sort questions by acceptance rate
 function sortQuestionsByAcceptanceRate() {
-    // Sort the question list by ascending acceptance rate
+    //Sort the question list by ascending acceptance rate
     let sortedList = questionList.sort((a, b) => a.acRate - b.acRate);
 
     return sortedList;
@@ -63,9 +63,9 @@ function sortQuestionsByAcceptanceRate() {
 let acceptanceHeaderElement = document.querySelector("#questions-table > thead > tr > th:nth-child(2)");
 
 acceptanceHeaderElement.addEventListener('click', function () {
-    // Sort the question list by acceptance rate
+    //Sort the question list by acceptance rate
     let sortedArray = sortQuestionsByAcceptanceRate(questionList);
 
-    // Repopulate the table with sorted data
+    //Repopulate the table with sorted data
     populateTable(sortedArray);
 });
