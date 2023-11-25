@@ -15,11 +15,11 @@ async function getApiData() {
 //Call the getApiData function to fetch API data
 let apiData = await getApiData();
 
-// Function to create a table row element for a question
+//Function to create a table row element for a question
 function getTableRow(title, acRate, difficulty) {
     let tRow = document.createElement("tr");
 
-    // Populate the table row with data
+    //Populate the table row with data
     tRow.innerHTML = `
         <td>${title}</td>
         <td>${acRate}</td>
