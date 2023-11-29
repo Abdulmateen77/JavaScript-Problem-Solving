@@ -1,13 +1,13 @@
-// Function to create a matrix of given size
+//Function to create a matrix of given size
 function createMatrix(size) {
   // Initialize an empty array to store the matrix
   let array = [];
 
-  // Loop through each row
+  //Loop through each row
   for (let i = 0; i < size; i++) {
     array.push([]); // Push an empty array to create a new row
 
-    // Loop through each column in the current row
+    //Loop through each column in the current row
     for (let j = 0; j < size; j++) {
       array[i].push(j); // Push the column index to the current row
     }
