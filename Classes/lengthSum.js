@@ -1,4 +1,4 @@
-// Define a class named Length
+//Define a class named Length
 class Length {
       // Constructor to initialize the feet and inch properties
       constructor(feet, inch){
