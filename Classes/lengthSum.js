@@ -6,7 +6,7 @@ class Length {
             this.inch = inch;
       }
 
-      // Method to check if the current Length object is valid
+      //Method to check if the current Length object is valid
       isValidObject(){
             // Check if both feet and inches are non-negative
             if(this.feet >= 0 && this.inch >= 0){
@@ -17,7 +17,7 @@ class Length {
             }
       }
 
-      // Method to add lengths of two Length objects
+      //Method to add lengths of two Length objects
       addLength(lengthObj){
             // Check if both the current object and the passed object are valid
             if (this.isValidObject() && lengthObj.isValidObject()){
