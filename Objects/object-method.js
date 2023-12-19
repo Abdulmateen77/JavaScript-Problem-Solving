@@ -1,6 +1,6 @@
-// Define a function named methodOnObject with parameters name, age, college, city, and country.
+//Define a function named methodOnObject with parameters name, age, college, city, and country.
 function methodOnObject(name, age, college, city, country) {
-  // Create a person object with properties name, age, college, city, and country.
+  //Create a person object with properties name, age, college, city, and country.
   let person = {
     name: name,
     age: age,
