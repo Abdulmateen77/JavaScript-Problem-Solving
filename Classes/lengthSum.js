@@ -31,7 +31,7 @@ class Length {
                         totalInches %= 12;
                   }
 
-                  // Return the result as an array [totalFeet, totalInches]
+                  //Return the result as an array [totalFeet, totalInches]
                   return [totalFeet, totalInches];
             }
             else{
