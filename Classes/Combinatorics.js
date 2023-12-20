@@ -29,7 +29,7 @@ class Combinatorics {
             if (R > N){
                   return 0;
             }
-            // Calculate permutations using the factorial formula
+            //Calculate permutations using the factorial formula
             return this.factorial(N) / this.factorial(N - R);
       }
 }
