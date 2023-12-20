@@ -13,19 +13,19 @@ class Combinatorics {
             }        
       }
 
-      // Method to find combinations (N choose R)
+      //Method to find combinations (N choose R)
       findCombinations(N, R){
-            // Check if R is greater than N, which is an invalid input
+            //Check if R is greater than N, which is an invalid input
             if (R > N){
                   return 0;
             }
-            // Calculate combinations using the factorial formula
+            //Calculate combinations using the factorial formula
             return this.factorial(N) / (this.factorial(R) * this.factorial(N - R));
       }
 
-      // Method to find permutations (N choose R)
+      //Method to find permutations (N choose R)
       findPermutations(N, R){
-            // Check if R is greater than N, which is an invalid input
+            //Check if R is greater than N, which is an invalid input
             if (R > N){
                   return 0;
             }
