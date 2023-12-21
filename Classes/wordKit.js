@@ -16,7 +16,7 @@ class WordKit {
             return revStr;
       }
 
-      // Method to check if a string is a palindrome
+      //Method to check if a string is a palindrome
       isPalindrome(str){
             // Compare the original string with its reversed version
             if (str === this.reverse(str)){
@@ -26,9 +26,9 @@ class WordKit {
             }
       }
 
-      // Method to make a string a palindrome by appending its reversed version
+      //Method to make a string a palindrome by appending its reversed version
       makePalindrome(str){
-            // Reverse the string
+            //Reverse the string
             let newStr = this.reverse(str);
 
             // Append the reversed string to the original string
