@@ -1,18 +1,18 @@
-// Define a class named WordKit
+//Define a class named WordKit
 class WordKit {
-      // Method to reverse a given string
+      //Method to reverse a given string
       reverse(str){
             let revStr = "";
             let chr;
 
-            // Iterate through each character in the string
+            //Iterate through each character in the string
             for(let i = 0; i < str.length; i++){
                   chr = str.charAt(i);
-                  // Add the character to the beginning of the reversed string
+                  //Add the character to the beginning of the reversed string
                   revStr = chr + revStr;
             }
 
-            // Return the reversed string
+            //Return the reversed string
             return revStr;
       }
 
