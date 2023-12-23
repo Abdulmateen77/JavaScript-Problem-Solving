@@ -16,7 +16,7 @@ class WordKit {
             return revStr;
       }
 
-      //Method to check if a string is a palindrome
+      // Method to check if a string is a palindrome
       isPalindrome(str){
             // Compare the original string with its reversed version
             if (str === this.reverse(str)){
