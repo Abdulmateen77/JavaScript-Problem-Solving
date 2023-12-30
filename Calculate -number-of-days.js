@@ -30,6 +30,7 @@ function getNumberOfDays(date) {
 //Test cases
 const givenDate1 = "16/08/2023";
 const days = getNumberOfDays(givenDate1);
+
 console.log(`Days between ${givenDate1} and today: ${days1}`);
 
 const givenDate2 = "10/08/2023";
