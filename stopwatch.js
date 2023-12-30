@@ -1,4 +1,4 @@
-// Constructor function for creating a Stopwatch object
+//Constructor function for creating a Stopwatch object
 function Stopwatch() {
   //Private variables to track the state and duration of the stopwatch
   let startTime, endTime, running, duration = 0;
@@ -46,7 +46,7 @@ function Stopwatch() {
 // Create a new Stopwatch instance
 const sw = new Stopwatch();
 
-// Start the stopwatch
+//Start the stopwatch
 sw.start();
 
 //Stop the stopwatch
