@@ -8,7 +8,7 @@ function getNumberOfDays(date) {
     //Get the current date and time, and set the time to midnight (00:00:00)
     const todaysDateTime = new Date().setUTCHours(0, 0, 0, 0);
 
-    // Split the given date into day, month, and year components
+    //Split the given date into day, month, and year components
     const arr = date.split("/");
     //Reformat the date string to match "MM/DD/YYYY" format
     date = arr[1] + "/" + arr[0] + "/" + arr[2];
