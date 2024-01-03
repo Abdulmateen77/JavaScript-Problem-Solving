@@ -13,12 +13,12 @@ function quoteKenye(quote) {
   quoteofKenye.appendChild(newQuote);
 }
 
-// Function to fetch a quote from the Kanye West API
+//Function to fetch a quote from the Kanye West API
 function fetchQuote() {
   // URL for the Kanye West API
   const url = "https://api.kanye.rest/";
 
-  // Fetch data from the API using fetch()
+  //Fetch data from the API using fetch()
   fetch(url)
     // When the data is received, parse it as JSON
     .then((res) => res.json())
