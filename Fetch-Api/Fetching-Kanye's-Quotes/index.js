@@ -22,12 +22,12 @@ function fetchQuote() {
   fetch(url)
     //When the data is received, parse it as JSON
     .then((res) => res.json())
-    // When JSON data is parsed, access the "quote" property and pass it to quoteKenye()
+    //When JSON data is parsed, access the "quote" property and pass it to quoteKenye()
     .then((data) => {
       const { quote } = data;
       quoteKenye(quote);
     });
 }
 
-// Call the fetchQuote() function to initiate the fetching and displaying of a quote
+//Call the fetchQuote() function to initiate the fetching and displaying of a quote
 fetchQuote();
