@@ -29,10 +29,10 @@ function getTableRow(title, acRate, difficulty) {
     return tRow;
 }
 
-// Extract the list of questions from the API data
+//Extract the list of questions from the API data
 const questionList = apiData.problemsetQuestionList.questions;
 
-// Function to populate the table with question data
+//Function to populate the table with question data
 function populateTable() {
     let data = document.getElementById("table-body");
     data.innerHTML = "";
