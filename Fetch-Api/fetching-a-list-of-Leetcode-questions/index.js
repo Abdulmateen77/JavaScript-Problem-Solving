@@ -37,13 +37,13 @@ function populateTable() {
     let data = document.getElementById("table-body");
     data.innerHTML = "";
 
-    // Loop through each question and create a table row
+    //Loop through each question and create a table row
     questionList.forEach(element => {
         let { title, acRate, difficulty } = element;
         acRate = acRate.toFixed();
         let tRowElement = getTableRow(title, acRate, difficulty);
 
-        // Append the table row to the table body
+        //Append the table row to the table body
         data.append(tRowElement);
     });
 }
