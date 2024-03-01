@@ -33,6 +33,7 @@ console.log(isAlphabet('5')); //Output: Not Alphabet (non-alphabet character)
 console.log(isAlphabet('@')); //Output: Not Alphabet (non-alphabet character)
 console.log(isAlphabet(''));  //Output: Not Alphabet (empty string)
 
+
 //Test cases for checkAlphabet function
 console.log(checkAlphabet('A')); //Output: true (uppercase alphabet)
 console.log(checkAlphabet('z')); //Output: true (lowercase alphabet)
