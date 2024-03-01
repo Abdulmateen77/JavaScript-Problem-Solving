@@ -26,7 +26,6 @@ function checkAlphabet(X) {
     }
 }
 
-
 //Test cases for isAlphabet function
 console.log(isAlphabet('A')); //Output: Yes (uppercase alphabet)
 console.log(isAlphabet('z')); //Output: Yes (lowercase alphabet)
