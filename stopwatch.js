@@ -11,6 +11,7 @@ function Stopwatch() {
     running = true;
 
     // Store the current time when the stopwatch starts
+    
     startTime = new Date();
   }
 
