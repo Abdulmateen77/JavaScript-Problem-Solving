@@ -1,4 +1,4 @@
-// Function to fetch data from an API endpoint
+//Function to fetch data from an API endpoint
 async function getApiData() {
     //Send a GET request to the API endpoint
     let res = await fetch(
