@@ -19,7 +19,7 @@ let apiData = await getApiData();
 function getTableRow(title, acRate, difficulty) {
     let tRow = document.createElement("tr");
 
-    //Populate the table row with data
+    // Populate the table row with data
     tRow.innerHTML = `
         <td>${title}</td>
         <td>${acRate}</td>
