@@ -1,11 +1,11 @@
-// Select the first <h1> element on the page
+//Select the first <h1> element on the page
 let heading = document.getElementsByTagName("h1");
 let Firsth1Element = heading[0];
 
-// Change the text content of the first <h1> element
+//Change the text content of the first <h1> element
 Firsth1Element.innerText = "Practicing DOM Manipulation!";
 
-// Log the updated text content of the first <h1> element
+//Log the updated text content of the first <h1> element
 console.log(Firsth1Element.innerText);
 
 // Create a new <p> element and set its text content
