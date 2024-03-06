@@ -25,13 +25,13 @@ function addNewFact(factText) {
   divElement.appendChild(ParaElement);
 }
 
-// Execute the function with the 1st fact
+//Execute the function with the 1st fact
 addNewFact("innerText property refers to the text inside an element");
 
-// Execute the function with the 2nd fact
+//Execute the function with the 2nd fact
 addNewFact("append() or appendChild() methods can add a new child element");
 
-// Get the "facts-list" div and set its innerHTML with multiple <p> elements
+//Get the "facts-list" div and set its innerHTML with multiple <p> elements
 const divElement = document.getElementById("facts-list");
 divElement.innerHTML =
   "<p>Browser creates DOM from HTML content</p><p>Developers can access the DOM using the DOM APIs</p><p>innerHTML property refers to the HTML inside an element</p>";
