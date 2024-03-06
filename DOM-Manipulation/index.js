@@ -8,14 +8,14 @@ Firsth1Element.innerText = "Practicing DOM Manipulation!";
 //Log the updated text content of the first <h1> element
 console.log(Firsth1Element.innerText);
 
-// Create a new <p> element and set its text content
+//Create a new <p> element and set its text content
 const para = document.createElement("p");
 para.innerText = "innerText property refers to the text inside an element";
 
-// Append the new <p> element to the <body>
+//Append the new <p> element to the <body>
 document.body.appendChild(para);
 
-// Function to add a new fact to the "facts-list" div
+//Function to add a new fact to the "facts-list" div
 function addNewFact(factText) {
   const ParaElement = document.createElement("p");
   ParaElement.innerText = factText;
