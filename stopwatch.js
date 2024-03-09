@@ -24,7 +24,7 @@ function Stopwatch() {
     //Store the current time when the stopwatch stops
     endTime = new Date();
 
-    // Calculate the time difference in seconds and update the duration
+    //Calculate the time difference in seconds and update the duration
     const second = (endTime.getTime() - startTime.getTime()) / 1000;
     duration += second;
   }
