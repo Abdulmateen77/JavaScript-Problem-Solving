@@ -9,6 +9,7 @@ console.log (i,message);
 }
  console.log(showNumbers(10))
 
+
 // If array counts Truthy values
 function countTruthy(array){
   let count = 0;
