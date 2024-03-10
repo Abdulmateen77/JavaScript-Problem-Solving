@@ -48,7 +48,7 @@ function showPrime(num) {
   }
 }
 
-// Function to check if a number is prime
+//Function to check if a number is prime
 function isPrime(number) {
   //Iterate through potential factors from 2 to 'number - 1'
   for (let factor = 2; factor < number; factor++) {
@@ -57,11 +57,11 @@ function isPrime(number) {
       return false;
     }
   }
-  // If no factors were found, 'number' is prime
+  //If no factors were found, 'number' is prime
   return true;
 }
 
-// Example usage: Show prime numbers up to 11 and print them
+//Example usage: Show prime numbers up to 11 and print them
 console.log(showPrime(11));
 
 //Object with read only property
