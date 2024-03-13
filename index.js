@@ -43,7 +43,7 @@ function showPrime(num) {
     //Check if the current number is prime using the 'isPrime' function
     if (isPrime(number)) {
       //If it's prime, print the prime number to the console
-      console.log(number);
+       console.log(number);
     }
   }
 }
