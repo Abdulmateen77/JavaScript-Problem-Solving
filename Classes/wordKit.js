@@ -31,7 +31,7 @@ class WordKit {
             //Reverse the string
             let newStr = this.reverse(str);
 
-            // Append the reversed string to the original string
+            //Append the reversed string to the original string
             return str + newStr;
       }
 }
