@@ -1,6 +1,6 @@
 //Define a class named Length
 class Length {
-      // Constructor to initialize the feet and inch properties
+      //Constructor to initialize the feet and inch properties
       constructor(feet, inch){
             this.feet = feet;
             this.inch = inch;
@@ -35,7 +35,7 @@ class Length {
                   return [totalFeet, totalInches];
             }
             else{
-                  // Return [0,0] if either or both objects are invalid
+                  //Return [0,0] if either or both objects are invalid
                   return [0,0];
             }
       }
