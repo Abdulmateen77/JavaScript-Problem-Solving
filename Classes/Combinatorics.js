@@ -21,6 +21,7 @@ class Combinatorics {
             }
             //Calculate combinations using the factorial formula
             return this.factorial(N) / (this.factorial(R) * this.factorial(N - R));
+            
       }
 
       //Method to find permutations (N choose R)
