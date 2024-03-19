@@ -8,7 +8,7 @@ class WordKit {
             //Iterate through each character in the string
             for(let i = 0; i < str.length; i++){
                   chr = str.charAt(i);
-                  //Add the character to the beginning of the reversed string
+                  // Add the character to the beginning of the reversed string
                   revStr = chr + revStr;
             }
 
