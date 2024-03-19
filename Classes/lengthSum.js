@@ -8,7 +8,7 @@ class Length {
 
       //Method to check if the current Length object is valid
       isValidObject(){
-            // Check if both feet and inches are non-negative
+            //Check if both feet and inches are non-negative
             if(this.feet >= 0 && this.inch >= 0){
                   return true; // The object is valid
             }
