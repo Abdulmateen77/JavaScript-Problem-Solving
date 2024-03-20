@@ -1,4 +1,4 @@
-//Function to create a matrix of given size
+ //Function to create a matrix of given size
 function createMatrix(size) {
   //Initialize an empty array to store the matrix
   let array = [];
