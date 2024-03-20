@@ -1,6 +1,6 @@
 //Function to create a matrix of given size
 function createMatrix(size) {
-  // Initialize an empty array to store the matrix
+  //Initialize an empty array to store the matrix
   let array = [];
 
   //Loop through each row
@@ -16,7 +16,7 @@ function createMatrix(size) {
   return array; // Return the created matrix
 }
 
-// Compare the result of createMatrix with an expected result for a sample test case
+//Compare the result of createMatrix with an expected result for a sample test case
 if (JSON.stringify(createMatrix(2)) !== JSON.stringify([[0, 1], [0, 1]])) {
   console.log("Test fails: Expected [ [ 0, 1 ], [ 0, 1 ] ] for input size = 2");
 } else {
