@@ -9,6 +9,7 @@ function countOccurence(array, searchElement){
     return accumulator + occurence;
   }, 0);
 }
+
 try{
 const number = [1,2,3,2];
 console.log(countOccurence(number,3))
