@@ -1,4 +1,4 @@
-// function try and catch error handing
+//function try and catch error handing
 function countOccurence(array, searchElement){
 
   //with reduce function
