@@ -38,11 +38,11 @@ function sum(limit){
 console.log(sum(10))
 //Function to show prime numbers up to a given number 'num'
 function showPrime(num) {
-  //Iterate through numbers from 2 to 'num'
+  // Iterate through numbers from 2 to 'num'
   for (let number = 2; number <= num; number++) {
-    //Check if the current number is prime using the 'isPrime' function
+    // Check if the current number is prime using the 'isPrime' function
     if (isPrime(number)) {
-      //If it's prime, print the prime number to the console
+      // If it's prime, print the prime number to the console
        console.log(number);
     }
   }
