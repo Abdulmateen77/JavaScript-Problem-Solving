@@ -17,7 +17,7 @@ function filterByCity(arr) {
     return resultArr; // Return the filtered array
 }
 
-// Test Case 1: Filtering out items with city other than "bangalore" and "hyderabad"
+//Test Case 1: Filtering out items with city other than "bangalore" and "hyderabad"
 const input1 = [
     { city: "bangalore", name: "John" },
     { city: "chennai", name: "Alice" },
@@ -48,4 +48,4 @@ const input4 = [
     { city: "CHENNAI", name: "Olivia" }
 ];
 console.log(filterByCity(input4)); 
-// Output: [ { city: 'Bangalore', name: 'Sophia' }, { city: 'Hyderabad', name: 'Liam' } ]
+//Output: [ { city: 'Bangalore', name: 'Sophia' }, { city: 'Hyderabad', name: 'Liam' } ]
