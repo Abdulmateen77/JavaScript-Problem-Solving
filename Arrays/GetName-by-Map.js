@@ -1,5 +1,5 @@
 function getFullName(arr) {
-  // Using the map method to iterate over the array of objects and concatenate firstname and lastname
+  //Using the map method to iterate over the array of objects and concatenate firstname and lastname
   const fullName = arr.map((person) => person.firstname + ' ' + person.lastname);
   return fullName;
 }
