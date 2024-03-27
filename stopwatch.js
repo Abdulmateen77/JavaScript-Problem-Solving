@@ -4,6 +4,7 @@ function Stopwatch() {
   //Private variables to track the state and duration of the stopwatch
   let startTime, endTime, running, duration = 0;
 
+
   //Method to start the stopwatch
   this.start = function() {
     if (running)
