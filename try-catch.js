@@ -8,7 +8,7 @@ function errorHandler(x) {
     } catch (error) {
         //Log the error message
         console.error("An error occurred:", error.message); 
-        return null; // Return null to indicate error
+        return null; //Return null to indicate error
     }
 }
 
@@ -17,7 +17,7 @@ function getX(x) {
     if (x == 5) {
         return new Error("Error Occurred"); // Return an Error object with a message if x is 5
     }
-    return x; // Return x if x is not 5
+    return x; //Return x if x is not 5
 }
 
 
