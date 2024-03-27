@@ -21,15 +21,15 @@ function getX(x) {
 }
 
 
-// Test cases for errorHandler function
+//Test cases for errorHandler function
 console.log(errorHandler(3)); // Output: 3 (no error)
 console.log(errorHandler(5)); // Output: null (error occurred)
 
-// Test cases for getX function
+//Test cases for getX function
 console.log(getX(3)); // Output: 3
 console.log(getX(5)); // Output: Error: Error Occurred
 
-// Test case with try-catch block
+//Test case with try-catch block
 try {
     console.log(errorHandler(3)); // Output: 3 (no error)
     console.log(errorHandler(5)); // Output: null (error occurred)
