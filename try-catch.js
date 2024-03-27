@@ -2,17 +2,17 @@
 
 function errorHandler(x) {
     try {
-        // Try to get the value using the getX function
+        //Try to get the value using the getX function
         let num = getX(x);
         return num; // Return the value if successful
     } catch (error) {
-        // Log the error message
+        //Log the error message
         console.error("An error occurred:", error.message); 
         return null; // Return null to indicate error
     }
 }
 
-// Function to get the value of x
+//Function to get the value of x
 function getX(x) {
     if (x == 5) {
         return new Error("Error Occurred"); // Return an Error object with a message if x is 5
