@@ -1,9 +1,9 @@
-//Define a class named Combinatorics
+// Define a class named Combinatorics
 class Combinatorics {
 
-      //Method to calculate the factorial of a number
+      // Method to calculate the factorial of a number
       factorial(num){
-            //Base case: factorial of 0 and 1 is 1
+            // Base case: factorial of 0 and 1 is 1
             if(num === 0 || num === 1){
                   return 1;
             }
