@@ -7,6 +7,7 @@ class Combinatorics {
             if(num === 0 || num === 1){
                   return 1;
             }
+                  
             //Recursive case: Calculate factorial using recursion
             else{
                   return num * this.factorial(num-1);
