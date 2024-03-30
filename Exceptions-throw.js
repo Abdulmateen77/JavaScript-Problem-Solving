@@ -1,5 +1,4 @@
 //Function to determine if the given input is an alphabet character
-
 function isAlphabet(X) {
     if (checkAlphabet(X)) {
         return "Yes"; //Return "Yes" if x is an alphabet character
