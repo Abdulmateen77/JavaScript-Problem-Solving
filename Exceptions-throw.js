@@ -2,9 +2,9 @@
 
 function isAlphabet(X) {
     if (checkAlphabet(X)) {
-        return "Yes"; // Return "Yes" if x is an alphabet character
+        return "Yes"; //Return "Yes" if x is an alphabet character
     } else {
-        throw "Not Alphabet"; // Throw an error if x is not an alphabet character
+        throw "Not Alphabet"; //Throw an error if x is not an alphabet character
     }
 }
 
