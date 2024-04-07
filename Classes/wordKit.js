@@ -1,5 +1,6 @@
 //Define a class named WordKit
 class WordKit {
+      
       //Method to reverse a given string
       reverse(str){
             let revStr = "";
