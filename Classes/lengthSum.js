@@ -19,6 +19,7 @@ class Length {
 
       //Method to add lengths of two Length objects
       addLength(lengthObj){
+            
             //Check if both the current object and the passed object are valid
             if (this.isValidObject() && lengthObj.isValidObject()){
                   //Calculate total feet and total inches
