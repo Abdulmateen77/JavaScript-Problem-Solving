@@ -9,28 +9,28 @@ document.body.append(button);
 //Select the button element
 const showButton = document.querySelector("button");
 
-// Add a click event listener to the button
+//Add a click event listener to the button
 showButton.onclick = function () {
-  // Call the loadTableFromJson function when the button is clicked
+  //Call the loadTableFromJson function when the button is clicked
   loadTableFromJson();
 };
 
-// Create an inputText element
+//Create an inputText element
 const inputText = document.createElement("inputText");
 
-// Set the inner HTML of the inputText element, including an input field and a display div
+//Set the inner HTML of the inputText element, including an input field and a display div
 inputText.innerHTML = `
 <input type="text" name="name" id="name" placeholder="Enter your name">
 <div id="name-display"></div>
 `;
 
-// Append the inputText element to the document body
+//Append the inputText element to the document body
 document.body.append(inputText);
 
-// Select the input element
+//Select the input element
 let nameInput = document.querySelector("input");
 
-// Add an input event listener to the input element
+//Add an input event listener to the input element
 nameInput.addEventListener("input", function (event) {
   // Get the input text from the event
   let inputText = event.target.value;
