@@ -1,12 +1,12 @@
-// Creating a "Show Table" Button
-// Create a button element and set its inner HTML
+//Creating a "Show Table" Button
+//Create a button element and set its inner HTML
 const button = document.createElement("button");
 button.innerHTML = `Show Table`;
 
-// Append the button to the document body
+//Append the button to the document body
 document.body.append(button);
 
-// Select the button element
+//Select the button element
 const showButton = document.querySelector("button");
 
 // Add a click event listener to the button
