@@ -32,12 +32,12 @@ let nameInput = document.querySelector("input");
 
 //Add an input event listener to the input element
 nameInput.addEventListener("input", function (event) {
-  // Get the input text from the event
+  //Get the input text from the event
   let inputText = event.target.value;
 
-  // Select the name-display div
+  //Select the name-display div
   let nameDisplayDiv = document.querySelector("#name-display");
 
-  // Set the text content of the name-display div to the input text
+  //Set the text content of the name-display div to the input text
   nameDisplayDiv.innerText = inputText;
 });
