@@ -5,6 +5,7 @@
 
 //Define a function to calculate the number of days between a given date and today's date
 function getNumberOfDays(date) {
+    
     //Get the current date and time, and set the time to midnight (00:00:00)
     const todaysDateTime = new Date().setUTCHours(0, 0, 0, 0);
 
