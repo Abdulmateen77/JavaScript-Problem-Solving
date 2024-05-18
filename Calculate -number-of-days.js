@@ -28,6 +28,7 @@ function getNumberOfDays(date) {
     return Math.floor(days);
 }
 
+
 //Test cases
 const givenDate1 = "16/08/2023";
 const days = getNumberOfDays(givenDate1);
