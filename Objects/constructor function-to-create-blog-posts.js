@@ -9,7 +9,6 @@ function Post(title, body, author) {
   this.isLive = false; // Indicates if the post is live or not
 }
 
-
 // Create a new instance of the Post object
 let Blog = new Post("A", "B", "C");
 
