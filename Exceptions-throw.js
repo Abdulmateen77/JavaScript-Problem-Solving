@@ -7,7 +7,6 @@ function isAlphabet(X) {
     }
 }
 
-
 //Function to check if a given character is an alphabet
 function checkAlphabet(X) {
     //Get the ASCII code of the character
